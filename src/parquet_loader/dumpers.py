@@ -16,4 +16,4 @@ def dump_data(foldername, simulation_data, data):
     for key, value in simulation_data.items():
         file.write(f'{key} = {value} ')
     file.close()
-    data.to_parquet(output_path, copression='gzip',index=False )
+    data.to_parquet(output_path, compression='gzip',index=False )
