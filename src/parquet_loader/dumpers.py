@@ -4,7 +4,7 @@ import pandas as pd
 
 def dump_data(foldername, simulation_data, data):
     """
-    Saves data (a dataframe format) as parquet files.
+    Saves data (a dataframe format) as parquet files in the folder '../simulations/{foldername}'
 
     """
     path = f'../simulations/{foldername}'
